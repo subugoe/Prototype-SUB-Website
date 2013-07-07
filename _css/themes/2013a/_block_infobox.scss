@@ -1,0 +1,111 @@
+/*
+ *	INFOBOX
+ */
+
+.infobox {
+	/* padding-left: 0; */
+	margin-bottom: 20px;
+	@include grid-media-query('xl') { font-size: 80%; }
+	@include grid-media-query('xxl') { font-size: 90%; }
+}
+
+.infobox__header {
+	color: white;
+	background-color: #6E7FA0;
+	font-size: 120%;
+	margin: 0;
+	padding: 7px 5px;
+	@include grid-media-query('xl') {
+		font-size: 110%;
+		padding: 6px 4px 3px 4px;
+	}
+	@include grid-media-query('xxl') { padding: 10px 7px; }
+}
+
+/*
+.infobox__header {
+	color: white;
+	background-color: #6E7FA0;
+}
+*/
+
+.infobox__header--smaller {
+	color: $brand-text-color;
+	background-color: #DEE1E8;
+	padding-bottom: 0;
+}
+
+/*
+.infobox__header--smaller {
+	color: $brand-text-color;
+	background-color: #DEE1E8;
+}
+*/
+
+.infobox__list,
+.infobox__text {
+	background-color: #DEE1E7;
+	padding: 7px 5px;
+	margin: 0;
+	@include grid-media-query('xl') { padding: 2px 5px; }
+}
+
+/*
+.infobox__list,
+.infobox__text {
+	background-color: #DEE1E7;
+}
+*/
+
+.infobox__list li { list-style-type: none; }
+
+.infobox__listitem {
+	padding: 3px 0 3px 0;
+	margin-left: 15px;
+	@include grid-media-query('xl') { padding: 1px 0; }
+}
+
+/* give the list items a little arrow instead on regular list-style-type */
+.infobox__listitem:before {
+	color: $brand-link__color--base;
+	font-family: FontAwesome;
+	content: $arrow-little-right;
+	margin: 0 0 0 -11px;
+	margin-right: 5px;
+}
+
+/*
+.infobox__listitem:before {
+	color: $brand-link__color--base;
+}
+*/
+
+.infobox__listlink {
+	color: $brand-link__color--base;
+	border-bottom-color: $brand-link__color--base;
+	text-decoration: none;
+	&:hover { border-bottom: 1px solid; }
+	&:active {}
+	&:visited {}
+}
+
+
+.infobox a {
+	color: $brand-link__color--base;
+	border-bottom-color: $brand-link__color--base;
+	&:hover {}
+	&:active {}
+	&:visited {}
+}
+
+
+/*
+.infobox__listlink,
+.infobox a {
+	color: $brand-link__color--base;
+	border-bottom-color: $brand-link__color--base;
+	&:hover {}
+	&:active {}
+	&:visited {}
+}
+*/

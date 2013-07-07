@@ -1,0 +1,14 @@
+.block-list, .block-list > li {
+	border: none;
+}
+
+.block-list__link {
+	font-weight: normal;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.block-list > li {
+	padding: 0;
+}

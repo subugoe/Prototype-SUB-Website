@@ -1,0 +1,114 @@
+/*
+ * SEARCH
+ */
+.search {
+	form { line-height: 180%; }
+	label { display: inline; }
+	@include grid-media-query('m') { display: none; }
+	@include grid-media-query('l') { display: none; }
+	@include grid-media-query('xl') { display: none; }
+	@include grid-media-query('xxl') { display: none; }
+}
+
+.search__catalog {
+	margin-bottom: 5px;
+}
+
+.search__header {
+	padding: 5px;
+	font-weight: bold;
+	display: block;
+	background-color: $brand-background__color--main;
+	color: white;
+	cursor: pointer;
+}
+
+.search__input {
+	text-align: left;
+	padding: 8px 0;
+	input { display: inline; }
+	input[type=text] {
+		width: 68%;
+		@include grid-media-query('s') { width: 80%; }
+	}
+	input[type=submit] {
+		width: 29.5%;
+		@include grid-media-query('s') { width: 19.5%; }
+	}
+}
+
+.search__inputfield {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+.search__inputsubmit {
+	float: right;
+	background-color: white;
+	margin-top: 2px;
+	padding: 3px 3px 3px 3px;
+	border: 1px solid black;
+}
+
+.search__inputradio {
+	display: block;
+}
+
+.search__link, 
+.search__infolink {
+	text-decoration: none;
+	color: $brand-link__color--base;
+	&:hover { border-bottom: 1px solid $brand-link__color--hover; }
+	&:active {}
+	&:visited {}
+}
+
+.search__infolink:after {
+	font-family: FontAwesome;
+	content: $arrow-little-right;
+	margin: 0 0 0 9px;
+	border-bottom: none;
+}
+
+.search__link:before {
+	font-family: FontAwesome;
+	content: $arrow-little-right;
+	margin: 0 5px 0 0;
+	border-bottom: none;
+}
+
+.search__resultmarker {
+	background-color: lightgrey;
+}
+
+.search__list {
+	margin: 0;
+	padding: 0;
+}
+
+.search__listitem {
+	list-style-type: none;
+	margin-left: 9px;
+}
+
+.search__listitem:before {
+	font-family: FontAwesome;
+	color: $brand-link__color--base;
+	content: $arrow-little-right;
+	margin-left: -9px;
+	margin-right: 3px;
+	border-bottom: none;
+}
+
+.search__listlink {
+	text-decoration: none;
+	color: $brand-link__color--base;
+	&:hover { border-bottom: 1px solid $brand-link__color--hover; }
+	&:active {}
+	&:visited {}
+}
+
+.search__website,
+.search__discipline {
+	margin-bottom: 8px;
+}

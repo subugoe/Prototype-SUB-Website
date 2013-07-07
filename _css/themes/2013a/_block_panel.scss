@@ -1,0 +1,85 @@
+/*
+ *	PANEL
+ */
+
+
+/* General styles for all menus */
+.panel__item {
+	background: white;
+	position: fixed;
+	@include word-break(break-word);
+	@include hyphens(auto);
+}
+
+.panel__title {
+	display: block;
+	padding: 5px;
+	background-color: #1A3771;
+	color: white;
+	font-weight: bold;
+}
+
+.panel__title.panel__trigger {
+	cursor: pointer;
+}
+
+.panel__content {
+	padding: 5px 10px;
+	overflow-y: auto;
+	height: 95%;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.panel__item--vertical {
+	width: $panel__item--vertical-width;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.panel__item--horizontal {
+	width: 100%;
+	height: 150px;
+	left: 0;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.panel__item--left { left: -$panel__item--vertical-width; }
+
+.panel__item--right { right: -$panel__item--vertical-width; }
+
+.panel__item--left.panel__helper--open { left: 0px; }
+
+.panel__item--right.panel__helper--open { right: 0px; }
+
+/* Horizontal menu that slides from the top or bottom */
+
+/*
+.panel__item--top { top: -150px; }
+
+.panel__item--bottom { bottom: -150px; }
+
+.panel__item--top.panel__helper--open { top: 0px; }
+
+.panel__item--bottom.panel__helper--open { bottom: 0px; }
+*/
+
+/* Push classes applied to the body */
+
+.panel__helper--push {
+	position: relative;
+	left: 0;
+}
+
+.panel__helper--push-toright { left: $panel__item--vertical-width; }
+
+.panel__helper--push-toleft { left: -$panel__item--vertical-width; }
+
+/* Transitions */
+
+.panel__item,
+.panel__helper--push { @include transition(all $panel__transition-time ease); }

@@ -1,0 +1,52 @@
+/*
+ *	PAGEADD
+ */
+
+.pageadd {
+	padding: 8px 5px;
+	@include grid-media-query('m-and-up') {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	@include grid-media-query('xl') {
+		font-size: 80%;
+		padding: 3px 7px;
+	}
+	@include grid-media-query('xxl') { padding: 12px; }
+}
+
+.pageadd-a__list,
+.pageadd-b__list { margin: 0; }
+
+/* 1. remove the right margin from the last list item */
+.pageadd-b__list li:last-child,
+.pageadd-a__list li:last-child { margin: 0; }				// 1.
+
+.pageadd-b__list {
+	@include grid-media-query('s-and-up') { text-align: right; }
+}
+
+.pageadd__item {
+	list-style-type: none;
+	@include grid-media-query('m-and-up') {
+		display: inline;
+		margin-right: 5px;
+	}
+	@include grid-media-query('xl') { margin-right: 7px; }
+	@include grid-media-query('xxl') { margin-right: 12px; }
+}
+
+.pageadd__link {
+	color: white;
+	text-decoration: none;
+	&:hover { text-decoration: underline; }
+	&:active {}
+	&:visited {}
+}
+
+
+/*
+.pageadd__link {
+	color: white;
+}
+*/

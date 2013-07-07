@@ -1,0 +1,17 @@
+/*
+ *	LOGO
+ */
+.logo {
+	//display: inline;
+	//text-align: center;
+	//@include grid-media-query('xl') { text-align: left; }
+	//@include grid-media-query('xxl') { text-align: left; }
+	//background-repeat: no-repeat;
+	//background-size: 100%;
+	//@include background-image(linear-gradient(top, $brand-colorgradient__1--start, $brand-colorgradient__1--end));
+	//@include grid-media-query('s') { height: 92px; }
+	//@include grid-media-query('m') { height: 96px; }
+	//@include grid-media-query('l') { height: 108px; }
+	@include grid-media-query('xl') { height: 108px; }
+	//@include grid-media-query('xxl') { height: 128px; }
+}

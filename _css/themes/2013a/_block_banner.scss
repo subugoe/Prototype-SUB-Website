@@ -1,0 +1,19 @@
+/*
+ *	BANNER
+ *
+ *	1.	focal point positioning
+ *				https://github.com/adamdbradley/focal-point &
+ *				http://designshack.net/articles/css/focal-point-intelligent-cropping-of-responsive-images/
+ */
+
+.banner {
+	@include focal-point(						// 1.
+		$grid: 12,
+		$landscape-classes: true,
+		$portrait-classes: true,
+		$breakpoint: 1199px,
+		$inner-element: div,
+		$zoom-factor: 1,
+		$zoom-levels: 1
+	);
+}

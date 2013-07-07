@@ -1,0 +1,15 @@
+/*
+ *	WRAP
+ */
+
+.wrap {
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	@include grid-media-query('xs') { margin: 0 5px; }
+	@include grid-media-query('s') { margin: 0 10px; }
+	@include grid-media-query('m') { margin: 0 25px; }
+	@include grid-media-query('l') { margin: 0 50px; }
+	@include grid-media-query('xl') { margin: 0 75px; }
+	@include grid-media-query('xxl') { margin: 0 100px; }
+}

@@ -1,0 +1,75 @@
+.wrap {
+	@extend %grid;
+}
+
+.header,
+.menu,
+.contentwrap,
+.infobox,
+.mainnav,
+.footer section,
+.pageadd,
+.globallinks section,
+.contentbox,
+.breadcrumb,
+.bottomline,
+.banner,
+.footer,
+.logo,
+.headersearch {
+	@extend %grid__item;
+}
+
+.contentwrap {
+	@extend %m--nine-twelfths;
+	@extend %push--m--three-twelfths;
+	@extend %l--nine-twelfths;
+	@extend %push--l--three-twelfths;
+	@extend %xl--ten-twelfths;
+	@extend %push--xl--two-twelfths;
+	@extend %xxl--ten-twelfths;
+	@extend %push--xxl--two-twelfths;
+}
+
+.contentbox {
+	@extend %xl--ten-twelfths;
+	@extend %xxl--ten-twelfths;
+}
+
+.infobox {
+	@extend %xl--two-twelfths;
+	@extend %xxl--two-twelfths;
+}
+
+.mainnav {
+	@extend %m--three-twelfths;
+	@extend %pull--m--nine-twelfths;
+	@extend %l--three-twelfths;
+	@extend %pull--l--nine-twelfths;
+	@extend %xl--two-twelfths;
+	@extend %pull--xl--ten-twelfths;
+	@extend %xxl--two-twelfths;
+	@extend %pull--xxl--ten-twelfths;
+}
+
+.pageadd {
+	@extend %s-and-up--one-half;
+}
+
+.globallinks {
+	section {
+		@extend %s-and-up--one-half;
+		@extend %l-and-up--one-quarter;
+	}
+}
+
+.logo {
+	@extend %xl--seven-twelfths;
+	@extend %xxl--eight-twelfths;
+}
+
+
+.headersearch {
+	@extend %xl--five-twelfths;
+	@extend %xxl--four-twelfths;
+}

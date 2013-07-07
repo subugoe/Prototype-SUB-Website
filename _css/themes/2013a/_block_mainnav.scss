@@ -1,0 +1,75 @@
+/*
+ *	MAINNAV
+ */
+
+.mainnav {
+	border: none;
+	@include grid-media-query('xxl') { margin-top: 25px; }
+}
+
+.mainnav__list {
+	@include grid-media-query('xl') { font-size: 85%; }
+	@include grid-media-query('xxl') { font-size: 95%; }
+}
+
+.mainnav__link {
+	color: white;
+	background-color: #6E7FA0;
+	padding: 5px 5px;
+	@include grid-media-query('xl') { padding: 2px 0 2px 5px; }
+	text-decoration: none;
+	border-top: 1px solid #8D9AB4;
+	border-bottom: 1px solid #434E66;
+	&:hover {
+		background-color: #1A3771;
+	}
+	&:active {}
+	&:visited {}
+}
+
+mainnav__list.mainnav__list--secondlevel { font-size: 100%; }
+
+.mainnav__link--secondlevel,
+.mainnav__link--thirdlevel {
+	font-weight: normal;
+	border: none;
+	color: #1A3771;
+	background-color: #DEE1E7;
+	&:hover {
+		color: white;
+	}
+}
+
+.mainnav__link--active {
+	color: white;
+	background-color: #1A3771;
+}
+
+.mainnav__link--thirdlevel { padding-left: 20px; }
+
+
+
+
+/*
+.mainnav__link {
+	color: white;
+	background-color: #6E7FA0;
+	&:hover {
+		background-color: #1A3771;
+	}
+}
+
+.mainnav__link--secondlevel,
+.mainnav__link--thirdlevel {
+	color: #1A3771;
+	background-color: #DEE1E7;
+	&:hover {
+		color: white;
+	}
+}
+
+.mainnav__link--active {
+	color: white;
+	background-color: #1A3771;
+}
+*/

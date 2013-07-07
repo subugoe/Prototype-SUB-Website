@@ -1,0 +1,99 @@
+/*------------------------------------*\
+    VARS.SCSS
+\*------------------------------------*/
+/**
+ * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
+ * keep, simply redefine here. This means that if inuit.css, for example, sets
+ * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
+ * that variable in this file. inuit.css ignores its own variables in favour of
+ * using your own, so you can completely modify how inuit.css works without ever
+ * having to alter the framework itself.
+ */
+
+
+/*------------------------------------*\
+    $OBJECTS-AND-ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * All of inuit.css’ objects and abstractions are initially turned off by
+ * default. This means that you start any project with as little as possible,
+ * and introducing objects and abstractions is as simple as switching the
+ * following variables to `true`.
+ */
+$use-grids:         false;
+$use-flexbox:       false;
+$use-columns:       false;
+$use-nav:           true;
+$use-options:       false;
+$use-pagination:    false;
+$use-breadcrumb:    true;
+$use-media:         false;
+$use-marginalia:    false;
+$use-island:        false;
+$use-block-list:    true;
+$use-matrix:        false;
+$use-split:         true;
+$use-this-or-this:  false;
+$use-link-complex:  false;
+$use-flyout:        false;
+$use-arrows:        false;
+$use-sprite:        false;
+$use-icon-text:     false;
+$use-beautons:      false;
+$use-lozenges:      false;
+$use-rules:         false;
+$use-stats:         false;
+$use-greybox:       false;
+
+/*------------------------------------*\
+    $OVERRIDES
+\*------------------------------------*/
+/**
+ * Place any variables that should override inuit.css’ defaults here.
+ */
+
+//$global-border-box: false;
+
+//$debug-mode:        true;
+
+$responsive-extra:  true;
+
+$use-silent-classes: true;
+
+$push: true;
+
+$pull: true;
+
+/* disable gutter, so that grid item margins can be applied separatly for various sizes (i. e. breakpoint views) */
+$gutter: 0;
+
+$breakpoints: (
+	'xs' '(max-width: 479px)',														/* eveything smaller than iPhone wide */
+	's' '(min-width: 480px) and (max-width: 767px)',			/* iPhone wide, but smaller than iPad tall */
+	's-and-up' '(min-width: 480px)',											/* everything iPhone wide and bigger */
+	'm' '(min-width: 768px) and (max-width: 1023px)',			/* iPad tall, but smaller than iPad wide */
+	'm-and-up' '(min-width: 768px)',											/* everything iPad tall and bigger */
+	'l' '(min-width: 1024px) and (max-width: 1199px)',		/* bigger than iPad wide up to 1199 */
+	'l-and-up' '(min-width: 1024px)',											/* everything wider than iPad wide */
+	'xl' '(min-width: 1200px) and (max-width: 1599px)',		/* wide desktop */
+	'xxl' '(min-width: 1600px)'														/* really wide desktop */
+);
+
+$breakpoint-has-widths: ('xs', 's', 's-and-up', 'm', 'm-and-up', 'l', 'l-and-up', 'xl', 'xxl');
+$breakpoint-has-push:   ('s', 's-and-up', 'm', 'm-and-up', 'l', 'l-and-up', 'xl', 'xxl');
+$breakpoint-has-pull:   ('s', 's-and-up', 'm', 'm-and-up', 'l', 'l-and-up', 'xl', 'xxl');
+
+
+/*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+/**
+ * Place any of your own variables that sit on top of inuit.css here.
+ */
+
+$panel__item--vertical-width: 90%;
+$panel__transition-time: 0.3s;
+$overlay-opacity: 0.35;
+$arrow-little-right: "\f0da";
+
+$fontAwesomePath:   "../../../font";
