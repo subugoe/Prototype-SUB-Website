@@ -1,0 +1,23 @@
+<b:mainnav>
+	<e:mainnav__list/>
+	<e:mainnav__item/>
+	<e:mainnav__link/>
+</b:mainnav>
+<b:footer>
+	<b:pageadd>
+		<b:pageadd>
+			<e:pageadd-a__list/>
+			<e:pageadd-b__list/>
+			<e:pageadd__item/>
+			<e:pageadd__link/>
+		</b:pageadd>
+	</b:pageadd>
+	<b:globallinks>
+		<b:linklist>
+			<e:linklist__header/>
+			<e:linklist__list/>
+			<e:linklist__item/>
+			<e:linklist__link/>
+		</b:linklist>
+	</b:globallinks>
+</b:footer>
