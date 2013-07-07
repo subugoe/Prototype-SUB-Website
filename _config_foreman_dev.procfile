@@ -1,0 +1,2 @@
+jekyll: jekyll serve --watch --safe --config _config_jekyll_dev.yml
+compass: compass watch -c _config_compass_dev.rb

@@ -1,2 +1,0 @@
-jekyll: jekyll --server --auto --safe
-compass: compass watch

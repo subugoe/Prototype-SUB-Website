@@ -1,7 +1,5 @@
-auto: false
 safe: false
-server: false
-exclude: procfile, config.rb, bem.md, restart_nw.sh, screens.md, README.md
+exclude: [bem.md, screens.md, README.md]
 markdown: rdiscount
 permalink: pretty
 sitename: Prototype SUB-Website
