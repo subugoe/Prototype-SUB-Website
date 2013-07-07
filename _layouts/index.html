@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.language }}">
+
+<head>
+	<meta charset="UTF-8">
+	<title>{{ page.title }}</title>
+	{% include head-meta.html %}
+</head>
+
+<body id="{{ page.layout }}" class="panel__helper--push">
+
+{{content}}
+
+{% include js.html %}
+
+</body>
+
+</html>
