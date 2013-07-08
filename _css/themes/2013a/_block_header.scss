@@ -2,65 +2,8 @@
  *
  */
 .header {
-	//background-repeat: no-repeat;
-	//background-size: 100%;
 	@include background-image(linear-gradient(top, $brand-colorgradient__1--start, $brand-colorgradient__1--end));
 	@include grid-media-query('s') { height: 92px; }
 	@include grid-media-query('m') { height: 96px; }
 	@include grid-media-query('l') { height: 108px; }
-	//@include grid-media-query('xl') { height: 108px; }
-	//@include grid-media-query('xxl') { height: 128px; }
-}
-
-.headersearch {
-	//@include grid-media-query('xl') { height: 108px; }
-	//@include grid-media-query('xxl') { height: 128px; }
-	margin-top: 20px;
-	ul { margin-left: 0; }
-	width: 400px;
-	float: right;
-	margin-right: 25px;
-}
-
-.headersearch__chooseitem {
-	display: inline;
-	list-style-type: none;
-	background-color: black;
-	padding: 5px;
-	margin-right: 20px;
-}
-
-.headersearch__chooselink {
-	color: white;
-	text-decoration: none;
-}
-
-.headersearch__choose {
-	margin-bottom: 10px;
-}
-
-.headersearch__inputfield {
-	border: none;
-	padding: 3px;
-	width: 380px;
-}
-
-.headersearch__inputsubmit {
-	border: none;
-	color: white;
-	background-color: blue;
-	border-bottom: 1px solid white;
-	border-top: 1px solid white;
-	border-right: 1px solid white;
-	width: 20px;
-}
-
-.headersearch__content {
-	background-color: white;
-	position: absolute;
-	top: 84px;
-	right: 120px;
-	width: 380px;
-	z-index: 1;
-	padding: 5px;
 }

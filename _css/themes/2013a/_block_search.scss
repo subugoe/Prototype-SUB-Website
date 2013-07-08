@@ -112,3 +112,76 @@
 .search__discipline {
 	margin-bottom: 8px;
 }
+
+
+/*
+ *	HEADERSEARCH
+ */
+.headersearch {
+	margin-top: 20px;
+	@include grid-media-query('xxl') { margin-top: 35px; }
+	ul { margin-left: 0; }
+	width: 400px;
+	float: right;
+	margin-right: 25px;
+	
+}
+
+.headersearch__chooseitem {
+	display: inline;
+	list-style-type: none;
+	background-color: black;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+.headersearch__chooselink {
+	color: white;
+	text-decoration: none;
+}
+
+.headersearch__choose {
+	margin-bottom: 10px;
+}
+
+.headersearch__inputfield {
+	border: none;
+	padding: 3px;
+	width: 370px;
+}
+
+.headersearch__inputsubmit {
+	border: none;
+	color: white;
+	background-color: none;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	width: 20px;
+	padding: 3px 3px 3px 4px;
+	font-size: 85%;
+}
+
+.headersearch__content {
+	background-color: white;
+	position: absolute;
+	top: 84px;
+	right: 110px;
+	@include grid-media-query('xxl') {
+		top: 100px;
+		right: 135px;
+		line-height: 180%;
+	}
+	width: 390px;
+	z-index: 1;
+	padding: 8px;
+	
+}
+
+.headersearch__infolink {
+	text-decoration: none;
+	color: $brand-link__color--base;
+	&:hover { color: $brand-link__color--base; }
+	&:active { color: $brand-link__color--base; }
+	&:visited { color: $brand-link__color--base; }
+}
