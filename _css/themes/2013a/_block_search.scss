@@ -119,7 +119,12 @@
  */
 .headersearch {
 	margin-top: 20px;
-	@include grid-media-query('xxl') { margin-top: 35px; }
+	display: none;
+	@include grid-media-query('xl') { display: block; }
+	@include grid-media-query('xxl') { 
+		display: block;
+		margin-top: 35px;
+	}
 	ul { margin-left: 0; }
 	width: 400px;
 	float: right;
