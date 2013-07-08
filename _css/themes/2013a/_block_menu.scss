@@ -6,6 +6,9 @@
 .menu__list {
 	margin: 0;
 	background-color: #93a8cf;
+	@include grid-media-query('m') { min-height: 27px; }
+	@include grid-media-query('xl') { min-height: 7px; }
+	@include grid-media-query('xxl') { min-height: 10px; }
 }
 
 .menu__listitem {
@@ -35,6 +38,8 @@
 }
 
 .menu__listitem--search {
+	@include grid-media-query('m') { display: none; }
+	@include grid-media-query('l') { display: none; }
 	@include grid-media-query('xl') { display: none; }
 	@include grid-media-query('xxl') { display: none; }
 }
