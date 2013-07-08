@@ -160,9 +160,13 @@
 	width: 20px;
 	padding: 3px 3px 3px 4px;
 	font-size: 85%;
+	cursor: pointer;
 }
 
-.headersearch__content {
+.headersearch__content--catalog,
+.headersearch__content--discipline,
+.headersearch__content--website {
+	display: none;
 	background-color: white;
 	position: absolute;
 	top: 84px;
@@ -178,6 +182,12 @@
 	
 }
 
+.headersearch__content--catalog.headersearch__content--active,
+.headersearch__content--discipline.headersearch__content--active,
+.headersearch__content--website.headersearch__content--active {
+	display: block;
+}
+
 .headersearch__infolink {
 	text-decoration: none;
 	color: $brand-link__color--base;
@@ -185,3 +195,4 @@
 	&:active { color: $brand-link__color--base; }
 	&:visited { color: $brand-link__color--base; }
 }
+
