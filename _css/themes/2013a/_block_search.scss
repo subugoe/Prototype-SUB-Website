@@ -201,3 +201,51 @@
 	&:visited { color: $brand-link__color--base; }
 }
 
+/*
+ *	TABSEARCH
+ */
+
+.tabsearch {
+	display: none;
+	@include grid-media-query('m') { display: block; }
+	@include grid-media-query('l') { display: block; }
+	position: absolute;
+	z-index: 1;
+	top: 97px;
+	@include grid-media-query('l') { top: 81px; }
+	left: 27.5%;
+	width: 400px;
+}
+
+.tabsearch__content--catalog,
+.tabsearch__content--discipline,
+.tabsearch__content--website {
+	display: none;
+}
+
+.tabsearch__choose {
+	margin-left: 0;
+	margin-bottom: 3px;
+	&:last-child {
+		margin-right: 0px;
+	}
+}
+
+.tabsearch__chooseitem {
+	display: inline;
+	list-style-type: none;
+	background-color: black;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.tabsearch__chooselink {
+	color: white;
+	text-decoration: none;
+}
+
+.tabsearch__input {
+	background-color: white;
+	padding: 3px;
+	width: 400px;
+}
