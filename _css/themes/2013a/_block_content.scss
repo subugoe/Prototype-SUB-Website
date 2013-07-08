@@ -2,7 +2,7 @@
  *	CONTENTWRAP
  */
 .contentwrap {
-	@include grid-media-query('xxl') { margin-top: 25px; }
+	@include grid-media-query('xxl') { margin-top: 8px; }
 }
 
 /*

@@ -4,7 +4,7 @@
 
 .mainnav {
 	border: none;
-	@include grid-media-query('xxl') { margin-top: 25px; }
+	@include grid-media-query('xxl') { margin-top: 8px; }
 }
 
 .mainnav__list {
