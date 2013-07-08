@@ -16,4 +16,8 @@
 		$zoom-factor: 1,
 		$zoom-levels: 1
 	);
+	@include grid-media-query('s') { display: none; }
+	@include grid-media-query('xs') { display: none; }
+	@include grid-media-query('xl') { margin-top: -17px; }
+	@include grid-media-query('xxl') { margin-top: -14px; }
 }
