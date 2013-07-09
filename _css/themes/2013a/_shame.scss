@@ -2,7 +2,7 @@
  *	1.	there is - for some unknown reason - am margin at the bottom of the banner div, this gets rid of it
  */
 .banner {
-	@include grid-media-query('xl') {
-		margin-bottom: -8px; // 1.
-	}
+	@include grid-media-query('xl') { margin-bottom: -8px; }										// 1.
+	@include grid-media-query('xl') { margin-top: -17px; }
+	@include grid-media-query('xxl') { margin-top: -14px; }
 }
