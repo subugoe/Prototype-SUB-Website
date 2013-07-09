@@ -118,8 +118,8 @@
  *	HEADERSEARCH
  */
 .headersearch {
-	margin-top: 20px;
 	display: none;
+	margin-top: 20px;
 	@include grid-media-query('xl') { display: block; }
 	@include grid-media-query('xxl') { 
 		display: block;
@@ -130,6 +130,12 @@
 	float: right;
 	margin-right: 25px;
 	
+}
+
+.headersearch__content {
+	display: none;
+	@include grid-media-query('xl') { display: block; }
+	@include grid-media-query('xxl') { display: block; }
 }
 
 .headersearch__chooseitem {
@@ -184,7 +190,6 @@
 	width: 390px;
 	z-index: 1;
 	padding: 8px;
-	
 }
 
 .headersearch__content--catalog.headersearch__content--active,
@@ -221,6 +226,37 @@
 .tabsearch__content--discipline,
 .tabsearch__content--website {
 	display: none;
+	background-color: white;
+	position: absolute;
+	top: 155px;
+	left: 27.5%;
+	@include grid-media-query('l') {
+		top: 139px;
+		right: 135px;
+		line-height: 180%;
+	}
+	width: 400px;
+	z-index: 1;
+	padding: 8px;
+}
+
+.tabsearch__content {
+	display: none;
+	@include grid-media-query('m') { display: block; }
+	@include grid-media-query('l') { display: block; }
+	@include grid-media-query('xl') { display: none; }
+}
+
+.tabsearch__content--catalog,
+.tabsearch__content--discipline,
+.tabsearch__content--website {
+	display: none;
+}
+
+.tabsearch__content--catalog.tabsearch__content--active,
+.tabsearch__content--discipline.tabsearch__content--active,
+.tabsearch__content--website.tabsearch__content--active {
+	display: block;
 }
 
 .tabsearch__choose {
