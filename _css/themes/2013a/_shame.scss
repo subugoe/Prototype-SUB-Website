@@ -6,3 +6,12 @@
 	@include grid-media-query('xl') { margin-top: -17px; }
 	@include grid-media-query('xxl') { margin-top: -14px; }
 }
+
+
+#modal__activate--guk,
+#modal__activate--gvk,
+#modal__activate--gvkplus,
+#modal__activate--ezb,
+#modal__activate--dbis {
+	@extend %modal;
+}
