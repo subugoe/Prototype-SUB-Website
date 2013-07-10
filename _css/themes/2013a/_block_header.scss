@@ -5,5 +5,5 @@
 	@include background-image(linear-gradient(top, $brand-colorgradient__1--start, $brand-colorgradient__1--end));
 	@include grid-media-query('s') { height: 92px; }
 	@include grid-media-query('m') { height: 96px; }
-	@include grid-media-query('l') { height: 108px; }
+	@include grid-media-query('l') { height: 87px; }
 }

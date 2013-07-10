@@ -187,7 +187,7 @@
 	display: none;
 	background-color: white;
 	position: absolute;
-	top: 84px;
+	top: 63px;
 	right: 110px;
 	@include grid-media-query('xxl') {
 		top: 100px;
@@ -224,7 +224,7 @@
 	position: absolute;
 	z-index: 1;
 	top: 97px;
-	@include grid-media-query('l') { top: 81px; }
+	@include grid-media-query('l') { top: 60px; }
 	left: 27.5%;
 	width: 400px;
 }
@@ -238,7 +238,7 @@
 	top: 155px;
 	left: 27.5%;
 	@include grid-media-query('l') {
-		top: 139px;
+		top: 118px;
 		right: 135px;
 		line-height: 180%;
 	}
