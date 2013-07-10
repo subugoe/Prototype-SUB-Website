@@ -155,6 +155,13 @@
 	margin-bottom: 10px;
 }
 
+.headersearch__chooseitem--active {
+	background-color: white;
+	a {
+		color: black;
+	}
+}
+
 .headersearch__inputfield {
 	border: none;
 	padding: 3px;
@@ -275,6 +282,13 @@
 	margin-right: 10px;
 }
 
+.tabsearch__chooseitem--active {
+	background-color: white;
+	a {
+		color: black;
+	}
+}
+
 .tabsearch__chooselink {
 	color: white;
 	text-decoration: none;
@@ -284,4 +298,23 @@
 	background-color: white;
 	padding: 3px;
 	width: 400px;
+}
+
+.tabsearch__inputfield {
+	border: 1px solid black;
+	padding: 3px;
+	width: 370px;
+}
+
+.tabsearch__inputsubmit {
+	border: none;
+	color: black;
+	background-color: none;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	width: 20px;
+	padding: 4px 4px 4px 4px;
+	font-size: 85%;
+	cursor: pointer;
 }
