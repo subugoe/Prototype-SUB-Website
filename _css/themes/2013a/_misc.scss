@@ -6,7 +6,6 @@ body {
 	color: $brand-text-color;
 }
 
-
 .overlay {
 	cursor: pointer;
 	display: none;
@@ -21,6 +20,7 @@ body {
 	//color: white;
 	@include transition(all 0.3s ease);
 }
+
 
 /*
  *	MISC
