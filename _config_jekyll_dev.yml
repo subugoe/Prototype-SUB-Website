@@ -1,4 +1,6 @@
 safe: false
+baseurl: /Prototype-SUB-Website/
+#url: http://localhost:4000/Prototype-SUB-Website
 exclude: [bem.md, screens.md, README.md]
 markdown: rdiscount
 permalink: pretty
