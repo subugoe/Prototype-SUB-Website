@@ -1,5 +1,4 @@
 safe: false
-baseurl: /Prototype-SUB-Website/
 exclude: [bem.md, screens.md, README.md]
 markdown: rdiscount
 permalink: pretty
