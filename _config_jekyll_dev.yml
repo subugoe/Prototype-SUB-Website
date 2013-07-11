@@ -1,12 +1,6 @@
 safe: false
 exclude: [bem.md, screens.md, README.md]
 markdown: rdiscount
-permalink: pretty
 sitename: Prototype SUB-Website
 siteauthor: Various
 sitedescription: Prototype SUB-Website
-# jekyll-press:
-#  exclude: '.htaccess' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns eg 'atom.xml'
-#  js_options: {}      # js minifier options
-#  css_options: {}     # css minifier options
-#  html_options: {}    # html minifier options
