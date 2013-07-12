@@ -1,5 +1,15 @@
 ---
 layout: index
-title: Prototyp SUB-Website mobile
-language: de
+title: Prototyp SUB-Website
 ---
+# Various SUB-Website Prototypes
+---
+## [2012 responsified](/2012responsified.html)
+
+Eine Version der SUB-Website von 2012 mit RWD-Elementen
+
+---
+
+## Glossar
+
+* RWD - Responsive Webdesign
