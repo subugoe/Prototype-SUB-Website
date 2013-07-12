@@ -1,5 +1,3 @@
 ---
 layout: index
-title: Prototyp SUB-Website mobile
-language: de
----
+title: Prototyp SUB-Website
