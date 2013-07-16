@@ -16,7 +16,8 @@
 .banner,
 .footer,
 .logo,
-.headersearch {
+.headersearch,
+.toolwrap {
 	@extend %grid__item;
 }
 
