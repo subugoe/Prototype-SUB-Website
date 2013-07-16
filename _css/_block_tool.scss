@@ -1,0 +1,41 @@
+/*
+ *
+ */
+
+.icon-cog {
+	cursor: pointer;
+}
+
+.toolwrap {
+	display: none;
+}
+
+body.tool {
+	.toolwrap {
+		display: block;
+	}
+	.contentwrap,
+	.banner,
+	.tabsearch,
+	.mainnav,
+	.globallinks {
+		display: none;
+	}
+}
+
+.tool__navi {
+	text-align: center;
+}
+
+.tool__navibutton {
+	color: black;
+	text-decoration: none;
+}
+
+.tool__img {
+	text-align: center;
+}
+
+.tool__naviitem {
+	margin: 0 3px;
+}
