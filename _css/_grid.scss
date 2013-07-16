@@ -23,6 +23,7 @@
 .tool__infotitle,
 .tool__infoadddata,
 .tool__infoaddlinks,
+.tool__infoadddownload,
 .tool__moreimg {
 	@extend %grid__item;
 }
@@ -93,12 +94,17 @@
 
 .tool__infoadddata {
 	@extend %s--one-half;
-	@extend %m--one-half;
-	@extend %l--one-half;
+	@extend %m--one-third;
+	@extend %l--one-third;
 }
 
 .tool__infoaddlinks {
 	@extend %s--one-half;
-	@extend %m--one-half;
-	@extend %l--one-half;
+	@extend %m--one-third;
+	@extend %l--one-third;
+}
+.tool__infoadddownload {
+	@extend %s--one-half;
+	@extend %m--one-third;
+	@extend %l--one-third;
 }
