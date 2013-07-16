@@ -17,7 +17,13 @@
 .footer,
 .logo,
 .headersearch,
-.toolwrap {
+.toolwrap,
+.tool__infoadd,
+.tool__img,
+.tool__infotitle,
+.tool__infoadddata,
+.tool__infoaddlinks,
+.tool__moreimg {
 	@extend %grid__item;
 }
 
@@ -73,4 +79,26 @@
 .headersearch {
 	@extend %xl--five-twelfths;
 	@extend %xxl--four-twelfths;
+}
+
+.tool__img {
+	@extend %xl--ten-twelfths;
+	@extend %xxl--ten-twelfths;
+}
+
+.tool__infoadd {
+	@extend %xl--two-twelfths;
+	@extend %xxl--two-twelfths;
+}
+
+.tool__infoadddata {
+	@extend %s--one-half;
+	@extend %m--one-half;
+	@extend %l--one-half;
+}
+
+.tool__infoaddlinks {
+	@extend %s--one-half;
+	@extend %m--one-half;
+	@extend %l--one-half;
 }

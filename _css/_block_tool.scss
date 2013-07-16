@@ -34,8 +34,56 @@ body.tool {
 
 .tool__img {
 	text-align: center;
+	img {
+		width: 100%;
+		max-width: 100%;
+	}
 }
 
 .tool__naviitem {
 	margin: 0 3px;
+}
+
+.tool__infoadd {
+	/* background-color: lightgrey; */
+	padding-left: 10px;
+}
+
+.tool__infotitle {
+	h2 {
+		font-size: 110%;
+		margin-bottom: 0;
+	}
+}
+
+.tool__infolist {
+	margin: 0 0 0 15px;
+}
+
+.tool__infolistlink {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+.tool__infoaddtitle {
+	font-size: 105%;
+	margin: 0 0 5px 0;
+}
+
+.tool__infoadddata {
+	margin-bottom: 10px;
+}
+
+.tool__moreimg-list {
+	margin: 0;
+}
+
+.tool__moreimg_listitem {
+	display: inline;
+	list-style-type: none;
+}
+
+.tool__moreimg_img {
+	max-height: 150px;
 }
