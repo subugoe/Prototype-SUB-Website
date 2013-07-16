@@ -188,13 +188,13 @@
 	background-color: white;
 	position: absolute;
 	top: 83px;
-	right: 110px;
+	right: 83px;
 	width: 390px;
 	z-index: 1;
 	padding: 8px;
 	@include grid-media-query('xxl') {
 		top: 100px;
-		right: 135px;
+		right: 131px;
 		line-height: 180%;
 	}
 }
