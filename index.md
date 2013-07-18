@@ -36,7 +36,7 @@ Beispielhaft: Groessere Links und Button auf Geraeten, die mittels Touch bedient
 * Festlegung auf __unterschiedliche Anzeigegroessen__: XS, S, M. L, XL, XXL
 	* Uebersetzbar als: Smartphone Portrait (XS), Smartphone quer (S), Tablet Portrait (M), Tablet quer (L), Notebook (XL) und Desktop (XXL)
 * __Keine Festlegung auf spezifische Geraeteformen__ und damit verbundene Aufloesungen (verfuegbare Pixel), z. B. iPhone/iPad exklusiv, sondern jeweils volle Nutzung der gebotenen Geraetebreite (in Pixeln)
-* Einsatz von: CSS-Framework __<a href="">inuit</a>__, CSS-Logik __<a href="">BEM</a>__, CSS-Preprocessor __<a href="">Sass</a>__/__<a href="">Compass</a>__
+* Einsatz von: CSS-Framework <b><a href="">inuit</a></b>, CSS-Logik <b><a href="">BEM</a></b>, CSS-Preprocessor <b><a href="">Sass</a></b>/<b><a href="">Compass</a></b>
 * Umschaltung in einen __Werkzeugmodus__ mit reduzierter Oberflaeche und damit verbunden mehr Platz fuer die Anzeige von z. B. Digitalisaten
 * Nutzung der Dateiversionsverwaltung (Git) bei __<a href="">Github</a>__ (Code-/Result-Hosting) inkl. dem Publishing-Framework __<a href="">Jekyll</a>__
 
