@@ -13,7 +13,7 @@ title: Prototyp SUB-Website
 
 Sinn und Zweck dieses Prototyps ist die Erfahrbarmachung, was passiert, wenn die SUB-Website auf unterschiedlichen Geraeten angezeigt wird.
 
-Dieser Prototyp ist keine Klick-Demo und auch nicht Abbild von Photoshop-Designs.
+Dieser Prototyp ist keine Klick-Demo und auch nicht Abbild von Photoshop-Designs. Entsprechend sind Dinge wie z. B. die Suche nicht funktional umgesetzt und an vielen Stellen ist die visuelle Umsetzung nicht pixel-perfect.
 
 ### Grundannahme
 
@@ -27,7 +27,8 @@ Beispielhaft: Groessere Links und Button auf Geraeten, die mittels Touch bedient
 2. Bisher nicht bediente Szenarien ermoeglichen; z. B. Anzeige von werkzeugartigen Funktionen; Nutzung von Digitalisaten etc.
 3. Aufgreifen verschiedener Aspekte modernen Webdesigns
 4. Praktischer Einsatz zeitgemaesser Techniken und Werkzeuge im Kontext Frontend-Design/-Entwicklung
-5. Nachnutzbarkeit
+5. Einen Ausgangspunkt schaffen, von dem aus die Vorlage fuer einen Relaunch der SUB-Website erstellt werden kann. Von hier ab iterative (und <abbr title="Buzzword-Bingo anyone">agile</abbr>) Entwicklung.
+6. Nachnutzbarkeit
 
 ### Massnahmen zu Zielerreichung
 
