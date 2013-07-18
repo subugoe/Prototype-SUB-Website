@@ -41,16 +41,20 @@ Beispielhaft: Groessere Links und Button auf Geraeten, die mittels Touch bedient
 
 ### Naechste Schritte
 
-* Bekanntmachung und Einholen von Rückmeldung an un bei verschiedenen Interessengruppen innerhalb der SUB
+* Bekanntmachung und Einholen von Rueckmeldung an un bei verschiedenen Interessengruppen innerhalb der SUB
 * Weitere Iterationen erstellen
 * Usertests
 * Entscheidung ob und in welcher Form der Prototyp fuer eine Ueberarbeitung der SUB-Website dient
 * Ueberfuehrung des Prototyps in sauberes HTML/CSS als Grundlage für ein TYPO3-Template
 
-### Kein Smartphone/Zablet zur Hand?
+### Feedback
 
-Screenshots (standard): <a href="./img/screenhshots/">Smartphone Portrait (XS)</a>, <a href="./img/screenhshots/">Smartphone quer (S)</a>, <a href="./img/screenhshots/">Tablet Portrait (M)</a>, <a href="./img/screenhshots/">Tablet quer (L)</a>, <a href="./img/screenhshots/">Notebook (XL)</a>, <a href="./img/screenhshots/">Desktop (XXL)</a>
+Feedback an <a href="mailto:windisch@sub.uni-goettingen.de">windisch@sub.uni-goettingen.de</a>
 
-Screenshots (Suche): <a href="./img/screenhshots/">Smartphone Portrait (XS)</a>, <a href="./img/screenhshots/">Smartphone quer (S)</a>, <a href="./img/screenhshots/">Tablet Portrait (M)</a>, <a href="./img/screenhshots/">Tablet quer (L)</a>, <a href="./img/screenhshots/">Notebook (XL)</a>, <a href="./img/screenhshots/">Desktop (XXL)</a>
+### Kein Smartphone/Tablet zur Hand?
 
-Screenshots (Werkzeugmodus): <a href="./img/screenhshots/">Smartphone Portrait (XS)</a>, <a href="./img/screenhshots/">Smartphone quer (S)</a>, <a href="./img/screenhshots/">Tablet Portrait (M)</a>, <a href="./img/screenhshots/">Tablet quer (L)</a>, <a href="./img/screenhshots/">Notebook (XL)</a>, <a href="./img/screenhshots/">Desktop (XXL)</a>
+Screenshots (standard): <a href="./img/screenshots/xs - Prototype SUB-Website 2012 responsified.png">Smartphone Portrait (XS)</a>, <a href="./img/screenshots/s - Prototype SUB-Website 2012 responsified.png">Smartphone quer (S)</a>, <a href="./img/screenshots/m - Prototype SUB-Website 2012 responsified.png">Tablet Portrait (M)</a>, <a href="./img/screenshots/iPad wide.png">Tablet quer (L)</a>, <a href="./img/screenshots/xl - Prototype SUB-Website 2012 responsified.png">Notebook (XL)</a>, <a href="./img/screenshots/xxl - Prototype SUB-Website 2012 responsified.png">Desktop (XXL)</a>
+
+Screenshots (Suche): <a href="./img/screenshots/iPhone wide Search.png">Smartphone quer (S)</a> (<a href="./img/screenshots/iPhone wide search open.png">open</a>), <a href="./img/screenshots/iPad wide search.png">Tablet quer (L)</a> (<a href="./img/screenshots/iPad wide search open.png">open</a>)
+
+Screenshots (Werkzeugmodus): <a href="./img/screenshots/s - Tool Prototype SUB-Website 2012 responsified.png">Smartphone quer (S)</a>, <a href="./img/screenshots/m - Tool Prototype SUB-Website 2012 responsified.png">Tablet Portrait (M)</a>, <a href="./img/screenshots/l - Tool Prototype SUB-Website 2012 responsified.png">Tablet quer (L)</a>, <a href="./img/screenshots/xl - Tool Prototype SUB-Website 2012 responsified.png">Notebook (XL)</a>, <a href="./img/screenshots/xxl - Tool Prototype SUB-Website 2012 responsified.png">Desktop (XXL)</a>
