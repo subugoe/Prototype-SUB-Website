@@ -54,10 +54,7 @@ Feedback an <a href="mailto:windisch@sub.uni-goettingen.de">windisch@sub.uni-goe
 
 ### Weitere Informationen
 
-Der Code und Entwicklungsstand ist wie der Live-Prototype auch bei Github gehostet:
-
-* [Der Entwicklungsfortschritt kann hier eingesehen werden.](https://github.com/subugoe/Prototype-SUB-Website/pulse) (einfach auch 1234 additions and 1234 deletions klicken)
-* [Ob der Live-Prototyp den Entwicklungsstand entspricht kann hier geprueft werden.](https://github.com/subugoe/Prototype-SUB-Website/network) Master = Entwicklungssstand, gh-pages = Live-Prototyp
+Der Code und Entwicklungsstand ist wie der Live-Prototype auch bei Github gehostet: [Ob der Live-Prototyp den Entwicklungsstand entspricht kann hier geprueft werden.](https://github.com/subugoe/Prototype-SUB-Website/network) Master = Entwicklungssstand, gh-pages = Live-Prototyp
 
 ### Kein Smartphone/Tablet zur Hand?
 
