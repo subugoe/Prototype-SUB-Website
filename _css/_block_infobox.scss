@@ -37,8 +37,7 @@
 
 .infobox__list li { list-style-type: none; }
 
-.infobox__listitem,
-.infobox__socialitem {
+.infobox__listitem {
 	padding: 3px 0 3px 0;
 	margin-left: 15px;
 	@include grid-media-query('xl') { padding: 1px 0; }
@@ -71,34 +70,39 @@
 	&:visited {}
 }
 
-.infobox__socialitem-facebook:before {
+.infobox__socialitem {
+	padding: 3px 0 3px 0;
+	margin-left: 15px;
+	@include grid-media-query('xl') { padding: 1px 0; }
+}
+
+.infobox__socialitem a {
+	padding-top: -10px;
+}
+
+.infobox__socialitem:before {
+	font-size: 200%;
+	color: $brand-link__color--base;
+	font-family: FontAwesome;
+	margin: 0 5px 0 -11px;
+	vertical-align: middle;
+/* 	margin-right: 5px; */
+}
+
+.infobox__socialitem-facebook:before { 
 	color: $brand-facebook__color;
-	font-family: FontAwesome;
 	content: "\f082";
-	margin: 0 0 0 -11px;
-	margin-right: 5px;
 }
 
-.infobox__socialitem-twitter:before {
+.infobox__socialitem-twitter:before { 
 	color: $brand-twitter__color;
-	font-family: FontAwesome;
 	content: "\f081";
-	margin: 0 0 0 -11px;
-	margin-right: 5px;
 }
 
-.infobox__socialitem-reply:before {
-	color: $brand-link__color--base;
-	font-family: FontAwesome;
-	content: "\f112";
-	margin: 0 0 0 -11px;
-	margin-right: 5px;
-}
+.infobox__socialitem-reply:before { content: "\f112"; }
 
-.infobox__socialitem-comments:before {
-	color: $brand-link__color--base;
-	font-family: FontAwesome;
-	content: "\f086";
-	margin: 0 0 0 -11px;
-	margin-right: 5px;
+.infobox__socialitem-comments:before { content: "\f086"; }
+
+.infobox__socialitem .infobox__listlink {
+	margin-bottom: 5px;
 }
