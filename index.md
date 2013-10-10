@@ -9,7 +9,7 @@ title: Prototyp SUB-Website
 
 ## [2012 responsified Version der SUB-Website von 2012](2012responsified.html)
 
-> *__"It's not important that you like the design I'm going to make for you. [...] It's a bonus if you like it, but the main objectives are that your business needs are met and that your customers like it."__* <span style="font-size: 80%">(<a href="http://sixrevisions.com/project-management/clients-dont-have-to-like-your-work/">Wes McDowell @ Six Revisions</a>)</span>
+> <i><b>"It's not important that you like the design I'm going to make for you. [...] It's a bonus if you like it, but the main objectives are that your business needs are met and that your customers like it."</b></i> <span style="font-size: 80%">(<a href="http://sixrevisions.com/project-management/clients-dont-have-to-like-your-work/">Wes McDowell @ Six Revisions</a>)</span>
 
 Sinn und Zweck dieses Prototyps ist die Erfahrbarmachung, was passiert, wenn die SUB-Website auf unterschiedlichen Geraeten angezeigt wird.
 
@@ -33,12 +33,12 @@ Beispielhaft: Groessere Links und Button auf Geraeten, die mittels Touch bedient
 ### Massnahmen zu Zielerreichung
 
 * Vollstaendige Neuerstellung des HTML/CSS-Codes
-* Festlegung auf __unterschiedliche Anzeigegroessen__: XS, S, M. L, XL, XXL
+* Festlegung auf <b>unterschiedliche Anzeigegroessen</b>: XS, S, M. L, XL, XXL
 	* Uebersetzbar als: Smartphone Portrait (XS), Smartphone quer (S), Tablet Portrait (M), Tablet quer (L), Notebook (XL) und Desktop (XXL)
-* __Keine Festlegung auf spezifische Geraeteformen__ und damit verbundene Aufloesungen (verfuegbare Pixel), z. B. iPhone/iPad exklusiv, sondern jeweils volle Nutzung der gebotenen Geraetebreite (in Pixeln)
+* <b>Keine Festlegung auf spezifische Geraeteformen</b> und damit verbundene Aufloesungen (verfuegbare Pixel), z. B. iPhone/iPad exklusiv, sondern jeweils volle Nutzung der gebotenen Geraetebreite (in Pixeln)
 * Einsatz von: CSS-Framework <b><a href="">inuit</a></b>, CSS-Logik <b><a href="">BEM</a></b>, CSS-Preprocessor <b><a href="">Sass</a></b>/<b><a href="">Compass</a></b>
-* Umschaltung in einen __Werkzeugmodus__ mit reduzierter Oberflaeche und damit verbunden mehr Platz fuer die Anzeige von z. B. Digitalisaten
-* Nutzung der Dateiversionsverwaltung (Git) bei __<a href="">Github</a>__ (Code-/Result-Hosting) inkl. dem Publishing-Framework __<a href="">Jekyll</a>__
+* Umschaltung in einen <b>Werkzeugmodus</b> mit reduzierter Oberflaeche und damit verbunden mehr Platz fuer die Anzeige von z. B. Digitalisaten
+* Nutzung der Dateiversionsverwaltung (Git) bei <b><a href="">Github</a></b> (Code-/Result-Hosting) inkl. dem Publishing-Framework <b><a href="">Jekyll</a></b>
 
 ### Naechste Schritte
 
@@ -54,7 +54,7 @@ Feedback an <a href="mailto:windisch@sub.uni-goettingen.de">windisch@sub.uni-goe
 
 ### Weitere Informationen
 
-Der Code und Entwicklungsstand ist wie der Live-Prototype auch bei Github gehostet: [Ob der Live-Prototyp den Entwicklungsstand entspricht kann hier geprueft werden.](https://github.com/subugoe/Prototype-SUB-Website/network) Master = Entwicklungssstand, gh-pages = Live-Prototyp
+Der Code und Entwicklungsstand ist wie der Live-Prototype auch bei Github gehostet: <a href="https://github.com/subugoe/Prototype-SUB-Website/network">Ob der Live-Prototyp den Entwicklungsstand entspricht kann hier geprueft werden.</a> Master = Entwicklungssstand, gh-pages = Live-Prototyp
 
 ### Kein Smartphone/Tablet zur Hand?
 
