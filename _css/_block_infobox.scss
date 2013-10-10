@@ -37,7 +37,8 @@
 
 .infobox__list li { list-style-type: none; }
 
-.infobox__listitem {
+.infobox__listitem,
+.infobox__socialitem {
 	padding: 3px 0 3px 0;
 	margin-left: 15px;
 	@include grid-media-query('xl') { padding: 1px 0; }
@@ -68,4 +69,36 @@
 	&:hover {}
 	&:active {}
 	&:visited {}
+}
+
+.infobox__socialitem-facebook:before {
+	color: $brand-facebook__color;
+	font-family: FontAwesome;
+	content: "\f082";
+	margin: 0 0 0 -11px;
+	margin-right: 5px;
+}
+
+.infobox__socialitem-twitter:before {
+	color: $brand-twitter__color;
+	font-family: FontAwesome;
+	content: "\f081";
+	margin: 0 0 0 -11px;
+	margin-right: 5px;
+}
+
+.infobox__socialitem-reply:before {
+	color: $brand-link__color--base;
+	font-family: FontAwesome;
+	content: "\f112";
+	margin: 0 0 0 -11px;
+	margin-right: 5px;
+}
+
+.infobox__socialitem-comments:before {
+	color: $brand-link__color--base;
+	font-family: FontAwesome;
+	content: "\f086";
+	margin: 0 0 0 -11px;
+	margin-right: 5px;
 }
