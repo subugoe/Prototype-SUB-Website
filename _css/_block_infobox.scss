@@ -37,8 +37,7 @@
 
 .infobox__list li { list-style-type: none; }
 
-.infobox__listitem,
-.infobox__socialitem {
+.infobox__listitem {
 	padding: 3px 0 3px 0;
 	margin-left: 15px;
 	@include grid-media-query('xl') { padding: 1px 0; }
@@ -71,34 +70,38 @@
 	&:visited {}
 }
 
-.infobox__socialitem-facebook:before {
-	color: $brand-facebook__color;
-	font-family: FontAwesome;
-	content: "\f082";
-	margin: 0 0 0 -11px;
-	margin-right: 5px;
+.infobox__socialitem {
+	line-height: 2.2em;
+	@include grid-media-query('xl') { padding: 1px 0; }
 }
 
-.infobox__socialitem-twitter:before {
-	color: $brand-twitter__color;
-	font-family: FontAwesome;
-	content: "\f081";
-	margin: 0 0 0 -11px;
-	margin-right: 5px;
+.infobox__socialitem i {
+	font-size: 200%;
+	vertical-align: middle;
+	margin-right: 3px;
 }
 
-.infobox__socialitem-reply:before {
-	color: $brand-link__color--base;
-	font-family: FontAwesome;
-	content: "\f112";
-	margin: 0 0 0 -11px;
-	margin-right: 5px;
+.infobox__iconlink {
+	text-decoration: none;
+	border: none;
 }
 
-.infobox__socialitem-comments:before {
-	color: $brand-link__color--base;
-	font-family: FontAwesome;
-	content: "\f086";
-	margin: 0 0 0 -11px;
-	margin-right: 5px;
+.infobox__iconlink--facebook i {
+	color: $facebook__color;
+}
+
+.infobox__iconlink--twitter i {
+	color: $twitter__color;
+}
+
+.infobox__socialitem a:hover i {
+	border: none;
+}
+
+.infobox__socialitem a {
+	padding-top: -10px;
+}
+
+.infobox__socialitem .infobox__listlink {
+	margin-bottom: 5px;
 }
