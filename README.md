@@ -8,15 +8,15 @@ Prototype-SUB-Website
 
 [Übersicht bei Github](https://github.com/subugoe/Prototype-SUB-Website/releases)
 
-## 0.2.2 revisit social-media-icon positioning
+### 0.2.2 revisit social-media-icon positioning
 
-## 0.2.2 revisit social-media-icon positioning
+### 0.2.2 revisit social-media-icon positioning
 
-## 0.2.1 revisit social-media-icon positioning
+### 0.2.1 revisit social-media-icon positioning
 
 ## 0.2 Social Media Icons
 
-## 0.1.1 Bug Fix Release
+### 0.1.1 Bug Fix Release
 
 * fix github jekyll page build process
 
