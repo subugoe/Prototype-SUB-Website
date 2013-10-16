@@ -8,6 +8,8 @@ Prototype-SUB-Website
 
 [Übersicht bei Github](https://github.com/subugoe/Prototype-SUB-Website/releases)
 
+## 0.2.3 revisit social-media-icons
+
 ## 0.2.2 revisit social-media-icon positioning
 
 ## 0.2.2 revisit social-media-icon positioning

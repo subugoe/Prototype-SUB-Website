@@ -21,44 +21,6 @@ body {
 	@include transition(all 0.3s ease);
 }
 
-.list__social {
-	margin-left: 0;
-	font-size: 250%;
-}
-
-.list__socialitem {
-	display: inline;
-	list-style-type: none;
-}
-
-.list__socialitem i { 
-	width: 0.8em;
-}
-
-.list__sociallink {
-	text-decoration: none;
-}
-
-.list__socialicon {
-}
-
-.list__socialicon--facebook {
-	color: $facebook__color;
-}
-
-.list__socialicon--twitter {
-	color: $twitter__color;
-}
-
-.list__socialicon--reply {
-	font-size: 90%;
-	color: $brand-link__color--base;
-}
-
-.list__socialicon--question {
-	color: $brand-link__color--base;
-}
-
 /*
  *	MISC
  */
