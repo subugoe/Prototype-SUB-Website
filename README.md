@@ -8,6 +8,9 @@ Prototype-SUB-Website
 
 [Übersicht bei Github](https://github.com/subugoe/Prototype-SUB-Website/releases)
 
+
+## 0.3 removed outdated content
+
 ### 0.2.4 update readme
 
 ### 0.2.3 revisit social-media-icons
