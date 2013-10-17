@@ -55,11 +55,3 @@ Feedback an <a href="mailto:windisch@sub.uni-goettingen.de">windisch@sub.uni-goe
 ### Weitere Informationen
 
 Der Code und Entwicklungsstand ist wie der Live-Prototype auch bei Github gehostet: [Ob der Live-Prototyp den Entwicklungsstand entspricht kann hier geprueft werden.](https://github.com/subugoe/Prototype-SUB-Website/network) Master = Entwicklungssstand, gh-pages = Live-Prototyp
-
-### Kein Smartphone/Tablet zur Hand?
-
-Screenshots (standard): <a href="./img/screenshots/xs - Prototype SUB-Website 2012 responsified.png">Smartphone Portrait (XS)</a>, <a href="./img/screenshots/s - Prototype SUB-Website 2012 responsified.png">Smartphone quer (S)</a>, <a href="./img/screenshots/m - Prototype SUB-Website 2012 responsified.png">Tablet Portrait (M)</a>, <a href="./img/screenshots/iPad wide.png">Tablet quer (L)</a>, <a href="./img/screenshots/xl - Prototype SUB-Website 2012 responsified.png">Notebook (XL)</a>, <a href="./img/screenshots/xxl - Prototype SUB-Website 2012 responsified.png">Desktop (XXL)</a>
-
-Screenshots (Suche): <a href="./img/screenshots/iPhone wide Search.png">Smartphone quer (S)</a> (<a href="./img/screenshots/iPhone wide search open.png">open</a>), <a href="./img/screenshots/iPad wide search.png">Tablet quer (L)</a> (<a href="./img/screenshots/iPad wide search open.png">open</a>)
-
-Screenshots (Werkzeugmodus): <a href="./img/screenshots/s - Tool Prototype SUB-Website 2012 responsified.png">Smartphone quer (S)</a>, <a href="./img/screenshots/m - Tool Prototype SUB-Website 2012 responsified.png">Tablet Portrait (M)</a>, <a href="./img/screenshots/l - Tool Prototype SUB-Website 2012 responsified.png">Tablet quer (L)</a>, <a href="./img/screenshots/xl - Tool Prototype SUB-Website 2012 responsified.png">Notebook (XL)</a>, <a href="./img/screenshots/xxl - Tool Prototype SUB-Website 2012 responsified.png">Desktop (XXL)</a>
