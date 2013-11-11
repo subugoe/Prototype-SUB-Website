@@ -1,2 +1,3 @@
 jekyll: jekyll serve --watch --safe --config _config_jekyll_dev.yml
-compass: compass watch -c _config_compass_dev.rb
+#compass: compass watch -c _config_compass_dev.rb
+sass: sass --watch --compass --trace --no-cache --sourcemap --debug-info _css/style.scss:css/style.css
