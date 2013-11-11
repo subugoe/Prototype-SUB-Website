@@ -3,3 +3,7 @@
 	.#{$name},
 	%#{$name} { @content }
 }
+
+@include class(text-shadow) {
+	@include single-text-shadow(1px, 1px, 0, 0, #414141);
+}
