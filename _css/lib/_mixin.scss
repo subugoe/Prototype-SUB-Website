@@ -1,0 +1,5 @@
+/* http://jsfiddle.net/csswizardry/ECntr/ */
+@mixin class($name) {
+	.#{$name},
+	%#{$name} { @content }
+}
