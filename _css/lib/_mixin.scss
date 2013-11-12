@@ -5,5 +5,5 @@
 }
 
 @include class(text-shadow) {
-	@include single-text-shadow(1px, 1px, 0, 0, #414141);
+	@include single-text-shadow(1px, 1px, false, false, #414141);
 }
