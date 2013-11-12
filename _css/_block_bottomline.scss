@@ -6,10 +6,6 @@
 	font-size: 65%;
 	text-align: right;
 	margin-bottom: 5px;
-	@include grid-media-query('xl') {
-		margin-bottom: 5px;
-		font-size: 75%;
-	}
 	@include grid-media-query('xxl') { margin-bottom: 15px; }
 	ul {
 		margin: 0;
