@@ -2,18 +2,5 @@
 	background-color: $brand-background__color--main;
 }
 
-.footer__icon-facebook,
-.footer__icon-twitter,
-.footer__icon-reply,
-.footer__icon-comments {
-	font-size: 250%;
-	@include grid-media-query('xxl') { font-size: 350%; }
-	margin-left: -10px;
-}
-
-
-.footer__icon-facebook { color: $facebook__color; }
-.footer__icon-twitter { color: $twitter__color; }
-
 .linklist__link .icon-facebook-sign { color: $facebook__color; }
 .linklist__link .icon-twitter-sign { color: $twitter__color; }
