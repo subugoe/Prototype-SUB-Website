@@ -88,22 +88,13 @@
 	border: none;
 }
 
-.infobox__iconlink--facebook i {
-	color: $facebook__color;
-}
+.infobox__iconlink--facebook i { color: $facebook__color; }
 
-.infobox__iconlink--twitter i {
 	color: $twitter__color;
-}
+.infobox__iconlink--twitter i { color: $twitter__color; }
 
-.infobox__socialitem a:hover i {
-	border: none;
-}
+.infobox__socialitem a:hover i { border: none; }
 
-.infobox__socialitem a {
-	padding-top: -10px;
-}
+.infobox__socialitem a { padding-top: -10px; }
 
-.infobox__socialitem .infobox__listlink {
-	margin-bottom: 5px;
-}
+.infobox__socialitem .infobox__listlink { margin-bottom: 5px; }
