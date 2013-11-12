@@ -16,10 +16,7 @@
 	@include grid-media-query('m') { padding: 0 15px; }
 	@include grid-media-query('l') { padding: 0 20px; }
 	@include grid-media-query('xl') { padding: 0 15px; }
-	@include grid-media-query('xxl') {
-		padding: 0 25px;
-		font-size: 110%;
-	}
+	@include grid-media-query('xxl') { padding: 0 25px; }
 	ul {
 		margin-left: 15px;
 		li { list-style-type: none; }
