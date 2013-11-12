@@ -4,19 +4,19 @@
 
 .infobox {
 	margin-bottom: 20px;
-	@include grid-media-query('xl') { font-size: 80%; }
-	@include grid-media-query('xxl') { font-size: 90%; }
+	@include grid-media-query('xl') { font-size: $centi-size; }
+	@include grid-media-query('xxl') { font-size: $deci-size; }
 }
 
 .infobox__header {
 	color: white;
 	background-color: #6E7FA0;
-	font-size: 120%;
+	font-size: $deca-size;
 	margin: 0;
 	padding: 7px 5px;
 	@include grid-media-query('xl') {
-		font-size: 110%;
 		padding: 6px 4px 3px 4px;
+		font-size: $deci-size;
 	}
 	@include grid-media-query('xxl') { padding: 10px 7px; }
 }
@@ -76,7 +76,7 @@
 }
 
 .infobox__socialitem i {
-	font-size: 200%;
+	font-size: $kilo-size;
 	vertical-align: middle;
 	margin-right: 3px;
 }

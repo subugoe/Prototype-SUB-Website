@@ -177,7 +177,7 @@
 	border-right: 1px solid white;
 	width: 20px;
 	padding: 3px 3px 3px 4px;
-	font-size: 85%;
+	font-size: $centi-size;
 	cursor: pointer;
 }
 
@@ -315,6 +315,6 @@
 	border-right: 1px solid black;
 	width: 20px;
 	padding: 5px 5px 5px 5px;
-	font-size: 85%;
+	font-size: $centi-size;
 	cursor: pointer;
 }

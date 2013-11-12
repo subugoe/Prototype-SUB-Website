@@ -18,10 +18,10 @@
 .linklist__header {
 	padding: 0;
 	h2 {
-		font-size: 110%;
+		font-size: $deca-size;
 		margin: 0;
-		@include grid-media-query('xl') { font-size: 115%; }
-		@include grid-media-query('xxl') { font-size: 160%; }
+		@include grid-media-query('xl') { font-size: $deca-size; }
+		@include grid-media-query('xxl') { font-size: $hecto-size; }
 	}
 }
 
@@ -34,7 +34,7 @@
 	padding: 2px 0;
 	@include grid-media-query('xl') {
 		padding: 0;
-		font-size: 90%;
+		font-size: $deci-size;
 	}
 }
 

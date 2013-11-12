@@ -3,7 +3,7 @@
  */
 
 .bottomline {
-	font-size: 65%;
+	font-size: $micro-size;
 	text-align: right;
 	margin-bottom: 5px;
 	@include grid-media-query('xxl') { margin-bottom: 15px; }

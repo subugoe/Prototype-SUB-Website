@@ -8,8 +8,8 @@
 }
 
 .mainnav__list {
-	@include grid-media-query('xl') { font-size: 85%; }
-	@include grid-media-query('xxl') { font-size: 95%; }
+	@include grid-media-query('xl') { font-size: $centi-size; }
+	@include grid-media-query('xxl') { font-size: $deci-size; }
 }
 
 .mainnav__link {

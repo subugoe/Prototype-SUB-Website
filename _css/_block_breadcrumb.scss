@@ -9,8 +9,8 @@
 		ol li { display: block; }
 		background-color: white;
 	}
-	@include grid-media-query('xl') { font-size: 95%; }
-	@include grid-media-query('xxl') { font-size: 105%; }
+	@include grid-media-query('xl') { font-size: $deci-size; }
+	@include grid-media-query('xxl') { font-size: $deca-size; }
 	@include grid-media-query('s') { background-color: white; }
 }
 
