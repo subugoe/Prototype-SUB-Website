@@ -11,14 +11,15 @@
 
 .contentbox {
 	padding-left: 0;
-	@include word-break(break-word);
-	@include hyphens(auto);
 	@include grid-media-query('m') { padding: 0 15px; }
 	@include grid-media-query('l') { padding: 0 20px; }
 	@include grid-media-query('xl') { padding: 0 15px; }
 	@include grid-media-query('xxl') { padding: 0 25px; }
+}
 
 main {
+	@include word-break(break-word);
+	@include hyphens(auto);
 	a { 
 		@include link-colors();
 		@include link-decoration();
