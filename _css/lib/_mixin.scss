@@ -1,9 +1,97 @@
+/* Generic */
+
+
 /* http://jsfiddle.net/csswizardry/ECntr/ */
 @mixin class($name) {
 	.#{$name},
 	%#{$name} { @content }
 }
 
+
+
+/* specific */
+
+
 @include class(text-shadow) {
 	@include single-text-shadow(1px, 1px, false, false, #414141);
+}
+
+
+/* http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states/ */
+@mixin link-colors(
+		$base: $brand-link__color--base,
+		$visited: $brand-link__color--visited,
+		$hover: $brand-link__color--hover,
+		$focus: $brand-link__color--focus,
+		$active: $brand-link__color--active
+		) {
+	color: $base;
+	@if $visited {
+		&:visited {
+			color: $visited;
+		}
+	}
+	@if $hover {
+		&:hover {
+			color: $hover;
+		}
+	}
+	@if $focus {
+		&:focus {
+			color: $focus;
+		}
+	}
+	@if $active {
+		&:active {
+			color: $active;
+		}
+	}
+}
+
+
+@mixin link-decoration(
+		$border: true,
+		$border-hover: true,
+		$base: $brand-link__color--base,
+		$visited: $brand-link__color--visited,
+		$hover: $brand-link__color--hover,
+		$focus: $brand-link__color--focus,
+		$active: $brand-link__color--active
+		) {
+	text-decoration: none;
+	@if $border {
+		border-bottom-color: $base;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+	}
+	@if $visited {
+		&:visited {
+			@if $border {
+				border-bottom-color: lighten($visited, 25%);
+			}
+		}
+	}
+	@if $hover {
+		&:hover {
+			@if $border-hover {
+				border-bottom-color: $hover;
+				border-bottom-width: 2px;
+				border-bottom-style: solid;
+			}
+		}
+	}
+	@if $focus {
+		&:focus {
+			@if $border {
+				border: none;
+			}
+		}
+	}
+	@if $active {
+		&:active {
+			@if $border {
+				border-bottom-color: $active;
+			}
+		}
+	}
 }
