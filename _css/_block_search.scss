@@ -202,6 +202,7 @@
  */
 
 .tabsearch {
+/*
 	display: none;
 	@include grid-media-query('m') { display: block; }
 	@include grid-media-query('l') { display: block; }
@@ -211,6 +212,16 @@
 	@include grid-media-query('l') { top: 61px; }
 	left: 27.5%;
 	width: 400px;
+*/
+	position: absolute;
+	z-index: 1;
+	left: 27.5%;
+	width: 400px;
+	top: 97px;
+	@include grid-media-query('l') { top: 61px; }
+	display: none;
+	@include grid-media-query('m') { display: block; }
+	@include grid-media-query('l') { display: block; }
 }
 
 .tabsearch__content--catalog,
