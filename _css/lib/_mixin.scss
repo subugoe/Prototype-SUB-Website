@@ -17,6 +17,13 @@
 }
 
 
+@mixin mobileonly() {
+	@include grid-media-query('m-and-up') {
+		display: none;
+	}
+}
+
+
 /* http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states/ */
 @mixin link-colors(
 		$base: $brand-link__color--base,
