@@ -22,17 +22,6 @@
 .breadcrumb__listitem { display: inline; }
 
 .breadcrumb__link {
-	color: $brand-link__color--base;
-	text-decoration: none;
-	&:hover {
-		color: $brand-link__color--hover;
-		border-bottom: 1px solid;
-		border-bottom-color: $brand-link__color--base;
-	}
-	&:active {
-		color: $brand-link__color--active;
-	}
-	&:visited {
-		color: $brand-link__color--visited;
-	}
+	@include link-colors();
+	@include link-decoration(false);
 }

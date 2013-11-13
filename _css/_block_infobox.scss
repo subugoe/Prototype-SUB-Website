@@ -51,23 +51,12 @@
 	margin-right: 5px;
 }
 
+.infobox__link,
 .infobox__listlink {
-	color: $brand-link__color--base;
-	border-bottom-color: $brand-link__color--base;
-	text-decoration: none;
-	&:hover { border-bottom: 1px solid; }
-	&:active {}
-	&:visited {}
+	@include link-colors();
+	@include link-decoration(false);
 }
 
-
-.infobox a {
-	color: $brand-link__color--base;
-	border-bottom-color: $brand-link__color--base;
-	&:hover {}
-	&:active {}
-	&:visited {}
-}
 
 .infobox__socialitem {
 	line-height: 2.2em;
@@ -81,8 +70,8 @@
 }
 
 .infobox__iconlink {
-	text-decoration: none;
-	border: none;
+	@include link-colors();
+	@include link-decoration(false, false);
 }
 
 .infobox__iconlink--facebook i { color: $facebook__color; }

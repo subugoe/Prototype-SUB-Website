@@ -37,9 +37,6 @@
 }
 
 .pageadd__link {
-	color: white;
-	text-decoration: none;
-	&:hover { text-decoration: underline; }
-	&:active {}
-	&:visited {}
+	@include link-colors(white, white, white, white);
+	@include link-decoration(false, true, false, white, white);
 }

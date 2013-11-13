@@ -56,11 +56,8 @@
 
 .search__link, 
 .search__infolink {
-	text-decoration: none;
-	color: $brand-link__color--base;
-	&:hover { border-bottom: 1px solid $brand-link__color--hover; }
-	&:active {}
-	&:visited {}
+	@include link-colors();
+	@include link-decoration(false);
 }
 
 .search__infolink:after {
@@ -101,11 +98,8 @@
 }
 
 .search__listlink {
-	text-decoration: none;
-	color: $brand-link__color--base;
-	&:hover { border-bottom: 1px solid $brand-link__color--hover; }
-	&:active {}
-	&:visited {}
+	@include link-colors();
+	@include link-decoration(false);
 }
 
 .search__website,
@@ -206,11 +200,8 @@
 }
 
 .headersearch__infolink {
-	text-decoration: none;
-	color: $brand-link__color--base;
-	&:hover { color: $brand-link__color--base; }
-	&:active { color: $brand-link__color--base; }
-	&:visited { color: $brand-link__color--base; }
+	@include link-colors();
+	@include link-decoration(false);
 }
 
 /*
