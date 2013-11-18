@@ -17,6 +17,30 @@
 }
 
 
+@mixin phone--not() {
+	@include grid-media-query('phone') {
+		display: none;
+	}
+}
+
+@mixin tablet--not() {
+	@include grid-media-query('tablet') {
+		display: none;
+	}
+}
+
+@mixin desk--not() {
+	@include grid-media-query('desk') {
+		display: none;
+	}
+}
+
+@include class(phone--only) {
+	@include tablet--not();
+	@include desk--not();
+}
+
+
 /* http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states/ */
 @mixin link-colors(
 		$base: $brand-link__color--base,

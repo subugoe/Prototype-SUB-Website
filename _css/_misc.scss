@@ -29,3 +29,15 @@ body {
 	display: inline-block;
 	@include rotate(270deg);
 }
+
+.phone--not {
+	@include phone--not();
+}
+
+.tablet--not {
+	@include tablet--not();
+}
+
+.desk--not {
+	@include desk--not();
+}

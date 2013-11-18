@@ -68,15 +68,18 @@ $pull: true;
 $gutter: 0;
 
 $breakpoints: (
-	'xs' '(max-width: 479px)',														/* eveything smaller than iPhone wide */
-	's' '(min-width: 480px) and (max-width: 767px)',			/* iPhone wide, but smaller than iPad tall */
-	's-and-up' '(min-width: 480px)',											/* everything iPhone wide and bigger */
-	'm' '(min-width: 768px) and (max-width: 1023px)',			/* iPad tall, but smaller than iPad wide */
-	'm-and-up' '(min-width: 768px)',											/* everything iPad tall and bigger */
-	'l' '(min-width: 1024px) and (max-width: 1199px)',		/* bigger than iPad wide up to 1199 */
-	'l-and-up' '(min-width: 1024px)',											/* everything wider than iPad wide */
-	'xl' '(min-width: 1200px) and (max-width: 1599px)',		/* wide desktop */
-	'xxl' '(min-width: 1600px)'														/* really wide desktop */
+	'phone' '(max-width: 767px)',														/* xs & s*/
+	'tablet' '(min-width: 768px) and (max-width: 1199px)',	/* m & l */
+	'desk' '(min-width: 1024px)',														/* xl & xxl */
+	'xs' '(max-width: 479px)',															/* eveything smaller than iPhone wide */
+	's' '(min-width: 480px) and (max-width: 767px)',				/* iPhone wide, but smaller than iPad tall */
+	's-and-up' '(min-width: 480px)',												/* everything iPhone wide and bigger */
+	'm' '(min-width: 768px) and (max-width: 1023px)',				/* iPad tall, but smaller than iPad wide */
+	'm-and-up' '(min-width: 768px)',												/* everything iPad tall and bigger */
+	'l' '(min-width: 1024px) and (max-width: 1199px)',			/* bigger than iPad wide up to 1199 */
+	'l-and-up' '(min-width: 1024px)',												/* everything wider than iPad wide */
+	'xl' '(min-width: 1200px) and (max-width: 1599px)',			/* wide desktop */
+	'xxl' '(min-width: 1600px)'															/* really wide desktop */
 );
 
 $breakpoint-has-widths: ('xs', 's', 's-and-up', 'm', 'm-and-up', 'l', 'l-and-up', 'xl', 'xxl');
