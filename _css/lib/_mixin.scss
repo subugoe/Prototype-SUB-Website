@@ -17,10 +17,27 @@
 }
 
 
-@mixin mobileonly() {
-	@include grid-media-query('m-and-up') {
+@mixin phone--not() {
+	@include grid-media-query('phone') {
 		display: none;
 	}
+}
+
+@mixin tablet--not() {
+	@include grid-media-query('tablet') {
+		display: none;
+	}
+}
+
+@mixin desk--not() {
+	@include grid-media-query('desk') {
+		display: none;
+	}
+}
+
+@include class(phone--only) {
+	@include tablet--not();
+	@include desk--not();
 }
 
 
