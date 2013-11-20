@@ -8,6 +8,8 @@ Prototype-SUB-Website
 
 [Übersicht bei Github](https://github.com/subugoe/Prototype-SUB-Website/releases)
 
+## 0.5 use fontawesome 4.0.3 (previous 3.x)
+
 ## 0.4 restruktured search html/css, added various mixins etc.
 
 ## 0.3 removed outdated content
