@@ -169,6 +169,24 @@ ul.tool__moreimg_list{
 	}
 }
 
+.panzoom__buttons {
+	display: inline;
+	position: relative;
+	z-index: 999;
+/* 	top: 46px; */
+}
+
+.panzoom__img {
+	margin-top: 56px;
+	margin-bottom: 20px;
+/*
+		position: relative;
+		z-index: 1;
+		top: 46px;
+*/
+	
+}
+
 .toolbutton__larger,
 .toolbutton__smaller {
 	text-decoration: none;

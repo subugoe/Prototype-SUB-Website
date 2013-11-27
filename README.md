@@ -8,6 +8,7 @@ Prototype-SUB-Website
 
 [Übersicht bei Github](https://github.com/subugoe/Prototype-SUB-Website/releases)
 
+## 0.4 Zoom/Pan image in tool mode
 
 ## 0.3 removed outdated content
 

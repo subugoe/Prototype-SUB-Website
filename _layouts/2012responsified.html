@@ -62,15 +62,42 @@
 			</select>
 			<a href="" class="tool__naviitem"><i class="icon-forward tool__navibutton"></i></a>
 			<a href="" class="tool__naviitem"><i class="icon-step-forward tool__navibutton"></i></a>
+						<div class="panzoom__buttons">
+				<button class="zoom-in">Zoom In</button>
+				<button class="zoom-out">Zoom Out</button>
+				<input type="range" class="zoom-range">
+				<button class="reset">Reset</button>
+			</div>
 <!--
 			<a href="" class="tool__naviitem"><i class="icon-resize-full tool__navibutton"></i></a>
 			<a href="" class="tool__naviitem"><i class="icon-resize-small tool__navibutton"></i></a>
 -->
 		</div><!--
 		--><div class="tool__img">
+<!--
 			<a href="" class="tool__naviitem toolbutton__larger"><i class="icon-resize-full"></i></a>
+
 			<a href="" class="tool__naviitem toolbutton__smaller"><i class="icon-resize-small"></i></a>
-			<img src="./img/tmp/img3.jpg" alt="" />
+-->
+<!--
+			<div class="panzoom__buttons">
+				<button class="zoom-in">Zoom In</button>
+				<button class="zoom-out">Zoom Out</button>
+				<input type="range" class="zoom-range">
+				<button class="reset">Reset</button>
+			</div>
+-->
+			<div class="panzoom__img">
+				<img class="panzoom" src="./img/tmp/img.jpg" alt="" />
+			</div>
+<!--
+			<div class="panzoom__buttons">
+				<button class="zoom-in">Zoom In</button>
+				<button class="zoom-out">Zoom Out</button>
+				<input type="range" class="zoom-range">
+				<button class="reset">Reset</button>
+			</div>
+-->
 		</div><!--
 		--><div class="tool__infoadd">
 			<div class="tool__infoadddata">
@@ -446,6 +473,8 @@
 <script src="./js/libs.js" type="text/javascript"></script>
 <script src="./js/cookie.js" type="text/javascript"></script>
 <script src="./js/joyride.js" type="text/javascript"></script>
+<script src="./js/panzoom.js" type="text/javascript"></script>
+<script src="./js/mousewheel.js" type="text/javascript"></script>
 <script src="./js/javascript.js" type="text/javascript"></script>
 
 {% include joyride.html %}
