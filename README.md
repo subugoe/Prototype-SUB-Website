@@ -8,7 +8,7 @@ Prototype-SUB-Website
 
 [Übersicht bei Github](https://github.com/subugoe/Prototype-SUB-Website/releases)
 
-### 0.4.2 swap image
+### 0.4.2 swap image http://gdz.sub.uni-goettingen.de/de/dms/load/img/?PPN=PPN730145719&DMDID=DMDLOG_0017
 
 ### 0.4.1 add switch to show non map
 
